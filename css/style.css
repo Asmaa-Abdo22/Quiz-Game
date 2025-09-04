@@ -1,0 +1,26 @@
+/* *------Global Styles------ */
+:root {
+  --main-bg: #1f1147;
+  --main-btn-bg: #7b61ff;
+  --horizontal-bg: linear-gradient(90deg, #ff5f6d, #9b5dff);
+}
+body {
+  background-color: var(--main-bg);
+}
+.horizontalBg {
+  background: var(--horizontal-bg);
+}
+.main-btn-bg {
+  background-color: var(--main-btn-bg);
+}
+.btn-start {
+  font-size: 1.25rem;
+  transition: 300ms background-color;
+}
+.btn-start:hover {
+  background-color: #5536ee;
+}
+
+
+
+
