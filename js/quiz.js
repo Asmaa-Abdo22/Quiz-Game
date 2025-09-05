@@ -13,4 +13,23 @@ export default class Quiz {
     console.log(data.results);
     return data.results;
   }
+  endQuiz() {
+    return `
+    <div
+      class="question shadow-lg col-lg-8 offset-lg-2 p-4 rounded-4 text-center"
+      data-aos="zoom-in" data-aos-duration="800"
+    >
+      <h2 class="mb-0" data-aos="fade-down" data-aos-delay="300">
+      ${
+        this.score == this.numberOfQuestions
+          ? `Perfect Score Champion! 🎉  
+
+`
+          : `Your score is ${this.score}`
+      }      
+      </h2>
+      <button class="again btn mt-4 rounded-pill" data-aos="zoom-in" data-aos-delay="500">Try Again</button>
+    </div>
+    `;
+  }
 }

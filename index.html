@@ -9,20 +9,21 @@
     <link rel="shortcut icon" href="./images/quiz.png" type="image/x-icon">
     <!-- &-----Bootstrap css --- -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- &-----AOS Library CSS --- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- &-----Main css --- -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <main class="min-vh-100 d-flex flex-column justify-content-center align-items-center">
-        <div class="headingg mb-5">
+        <div class="headingg mb-5" data-aos="zoom-in" data-aos-duration="1000">
             <h2 class="horizontalBg  p-3 rounded-pill text-white">Quiz App</h2>
-
         </div>
         <div class="container">
             <div class="row">
                 <form class="start-quiz col-lg-8 offset-lg-2 d-flex flex-column gap-3 " id="quizOptions">
-                    <div class="form-floating">
+                    <div class="form-floating" data-aos="fade-right" data-aos-delay="100">
                         <select class="form-select" id="categoryMenu" aria-label="category Select">
                             <option selected value="">Any Category</option>
                             <option value="9">General Knowledge</option>
@@ -34,7 +35,7 @@
                         <label for="categoryMenu">Choose Category</label>
                     </div>
 
-                    <div class="form-floating">
+                    <div class="form-floating" data-aos="fade-left" data-aos-delay="200">
                         <select class="form-select" id="difficultyOptions" aria-label="difficulty Select">
                             <option selected value="easy">Easy</option>
                             <option value="medium">Medium</option>
@@ -43,28 +44,42 @@
                         <label for="difficultyOptions">Choose Difficulty Level</label>
                     </div>
 
-                    <div class="form-floating">
+                    <div class="form-floating" data-aos="fade-right" data-aos-delay="300">
                         <input type="number" class="form-control " id="questionsNumber"
                             placeholder="Number of Questions" />
                         <label for="QuestionsNumber " class="text-body">Number of Questions</label>
                     </div>
 
-                    <button type="button" class="btn btn-start text-white rounded-pill main-btn-bg" id="startQuiz">
+                    <button type="button" class="btn btn-start text-white rounded-pill main-btn-bg" id="startQuiz"
+                        data-aos="zoom-in" data-aos-delay="400">
                         Start
                     </button>
                 </form>
                 <div class="questions-container d-none text-white">
-
+                    <!-- Questions will appear here -->
                 </div>
             </div>
         </div>
-        <footer class="app-footer text-center mt-5 fixed-bottom">
-            <p >Made by Asmaa Abdo @2025</p>
+        <footer class="app-footer text-center mt-5 " data-aos="fade-up" data-aos-delay="500">
+            <p>Made by Asmaa Abdo @2025</p>
         </footer>
     </main>
 
     <!-- &-----Bootstrap js --- -->
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- &-----AOS Library JS --- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: false,
+                mirror: false
+            });
+        });
+    </script>
     <!-- &-----Main js --- -->
     <script src="./js/index.js" type="module"></script>
 </body>

@@ -6,7 +6,7 @@ const difficultyOptions = document.querySelector("#difficultyOptions");
 const questionsNumber = document.querySelector("#questionsNumber");
 const startQuizBtn = document.querySelector("#startQuiz");
 const quizOptions = document.querySelector("#quizOptions");
-const appFooter= document.querySelector(".app-footer")
+const appFooter = document.querySelector(".app-footer");
 export const questionsContainer = document.querySelector(
   ".questions-container"
 );

@@ -24,7 +24,15 @@ select option {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.again{
+  background-color: var(--main-btn-bg);
+  color: white;
+  transition: all 400ms;
+}
+.again:hover{
+  background-color: var(--category-bg);
+  color:#fff;
+}
 body {
   background-color: var(--main-bg);
   color: var(--text-primary);
