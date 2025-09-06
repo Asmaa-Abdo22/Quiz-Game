@@ -1,4 +1,4 @@
-Quiz Game - OOP JavaScript Practice
+# 🎯 Quiz Game - OOP JavaScript Practice
 
 ## Project Overview
 A clean, interactive quiz application built with vanilla JavaScript following Object-Oriented Programming principles. This project demonstrates modern JavaScript techniques and DOM manipulation skills.
@@ -27,17 +27,17 @@ A clean, interactive quiz application built with vanilla JavaScript following Ob
 
 ## Project Structure
 quiz-game/
-├── index.html          # Main HTML file
+├── index.html
 ├── css/
-│   ├── bootstrap.min.css
-│   └── style.css       # Custom styles
+│ ├── bootstrap.min.css
+│ └── style.css
 ├── images/
-│   └── quiz.png        # Favicon
+│ └── quiz.png
 └── js/
-    ├── bootstrap.bundle.min.js
-    ├── index.js        # Main application logic
-    ├── question.js     # Question class implementation
-    └── quiz.js         # Quiz class implementation
+├── bootstrap.bundle.min.js
+├── index.js
+├── question.js
+└── quiz.js
 
 ## How to Use
 1. Select your preferred quiz category
