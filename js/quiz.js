@@ -22,10 +22,10 @@ export default class Quiz {
       <h2 class="mb-0" data-aos="fade-down" data-aos-delay="300">
       ${
         this.score == this.numberOfQuestions
-          ? `Perfect Score Champion! 🎉  
+          ? `Congratulations, Champion! 🎉 you got full mark 
 
 `
-          : `Your score is ${this.score}`
+          : `Your score is ${this.score} of ${this.numberOfQuestions} `
       }      
       </h2>
       <button class="again btn mt-4 rounded-pill" data-aos="zoom-in" data-aos-delay="500">Try Again</button>

@@ -25,7 +25,7 @@
                 <form class="start-quiz col-lg-8 offset-lg-2 d-flex flex-column gap-3 " id="quizOptions">
                     <div class="form-floating" data-aos="fade-right" data-aos-delay="100">
                         <select class="form-select" id="categoryMenu" aria-label="category Select">
-                            <option selected value="">Any Category</option>
+                            <option selected disabled value="">Choose Category</option>
                             <option value="9">General Knowledge</option>
                             <option value="27">Animals</option>
                             <option value="19">Science: Mathematics</option>
@@ -37,7 +37,8 @@
 
                     <div class="form-floating" data-aos="fade-left" data-aos-delay="200">
                         <select class="form-select" id="difficultyOptions" aria-label="difficulty Select">
-                            <option selected value="easy">Easy</option>
+                            <option selected disabled value="">Choose Difficulty</option>
+                            <option value="easy">Easy</option>
                             <option value="medium">Medium</option>
                             <option value="hard">Hard</option>
                         </select>
@@ -47,7 +48,7 @@
                     <div class="form-floating" data-aos="fade-right" data-aos-delay="300">
                         <input type="number" class="form-control " id="questionsNumber"
                             placeholder="Number of Questions" />
-                        <label for="QuestionsNumber " class="text-body">Number of Questions</label>
+                        <label for="QuestionsNumber " class="text-muted">Number of Questions</label>
                     </div>
 
                     <button type="button" class="btn btn-start text-white rounded-pill main-btn-bg" id="startQuiz"
@@ -55,6 +56,8 @@
                         Start
                     </button>
                 </form>
+                <p id="errorMsg" class="text-danger mt-2 text-center d-none">Please fill in all fields</p>
+
                 <div class="questions-container d-none text-white">
                     <!-- Questions will appear here -->
                 </div>
