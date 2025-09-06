@@ -26,18 +26,20 @@ A clean, interactive quiz application built with vanilla JavaScript following Ob
 - **API Integration**: Fetches questions from the Open Trivia Database API
 
 ## Project Structure
+```tree
 quiz-game/
 ├── index.html
 ├── css/
-│ ├── bootstrap.min.css
-│ └── style.css
+│   ├── bootstrap.min.css
+│   └── style.css
 ├── images/
-│ └── quiz.png
+│   └── quiz.png
 └── js/
-├── bootstrap.bundle.min.js
-├── index.js
-├── question.js
-└── quiz.js
+    ├── bootstrap.bundle.min.js
+    ├── index.js
+    ├── question.js
+    └── quiz.js
+```
 
 ## How to Use
 1. Select your preferred quiz category
