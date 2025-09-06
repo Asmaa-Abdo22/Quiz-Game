@@ -11,6 +11,14 @@ A clean, interactive quiz application built with vanilla JavaScript following Ob
 - **Smooth Animations**: Enhanced user experience with AOS (Animate On Scroll) library
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
+## Technologies Used
+- HTML5 - Semantic markup and page structure
+- CSS3 - Styling and responsive design
+- Bootstrap 5 - UI components and layout system
+- JavaScript (ES6+) - Application logic and OOP implementation
+- AOS Library - Scroll animations and transitions
+- Open Trivia DB API - Question data source
+
 ## Technical Implementation
 - **OOP Architecture**: Implemented using JavaScript classes for questions, quiz logic, and UI rendering
 - **Modern JavaScript**: Utilizes ES6+ features (classes, arrow functions, template literals)
@@ -19,16 +27,17 @@ A clean, interactive quiz application built with vanilla JavaScript following Ob
 
 ## Project Structure
 quiz-game/
-├── index.html # Main HTML file
+├── index.html          # Main HTML file
 ├── css/
-│ ├── bootstrap.min.css
-│ └── style.css # Custom styles
-├── js/
-│ ├── bootstrap.bundle.min.js
-│ └── index.js # Main JavaScript application (OOP implementation)
-└── images/
-└── quiz.png # Favicon
-
+│   ├── bootstrap.min.css
+│   └── style.css       # Custom styles
+├── images/
+│   └── quiz.png        # Favicon
+└── js/
+    ├── bootstrap.bundle.min.js
+    ├── index.js        # Main application logic
+    ├── question.js     # Question class implementation
+    └── quiz.js         # Quiz class implementation
 
 ## How to Use
 1. Select your preferred quiz category
