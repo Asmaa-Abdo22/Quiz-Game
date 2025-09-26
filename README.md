@@ -67,4 +67,4 @@ quiz-game/
 ## Development Focus
 This project was created specifically to practice and demonstrate Object-Oriented Programming principles in JavaScript, highlighting the importance of clean code architecture in frontend development.
 
-Developed by Asmaa Abdo - 2025
+👩‍💻 Developed By [Asmaa Abdo](https://github.com/asmaa-abdo22) 
