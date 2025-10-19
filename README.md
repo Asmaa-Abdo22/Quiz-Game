@@ -52,7 +52,7 @@ quiz-game/
 
 
 ## Live Demo
-🔗 [Try the Quiz Game here](https://asmaa-abdo22.github.io/Quiz-Game/)
+🔗 [Try the Quiz Game here](https://quiz-game-two-lake.vercel.app/)
 
 ## Screenshots
 ![Quiz Start Screen](https://github.com/user-attachments/assets/7c99b085-ebc5-43d5-a50f-e150470cf5e9)
